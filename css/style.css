@@ -1,0 +1,556 @@
+/* Global */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.row{
+    --bs-gutter-x: 0rem !important;
+}
+/* Header */
+.a-logo{
+    width: 160px;
+    height: 50px;
+}
+/* Footer */
+.a-footer{
+    background-color: rgb(209, 209, 209);
+    padding: 20px 0px;
+}
+.a-fsocial{
+    padding-left: 20px;
+}
+.a-footer a{
+    text-decoration: none !important;
+    color: black;
+    padding: 0px 10px;
+}
+.a-footer a:hover{
+    text-decoration: none !important;
+    color: white;
+    transition: 0.5s;
+}
+.a-footer i{
+    font-size: 30px;
+}
+.a-footer p{
+    margin-top: 70px;
+    font-size: 30px;
+}
+.a-fsocial p{
+    font-size: 25px;
+    margin-top: 0px;
+}
+.a-fsocial{
+    width: 200px !important;
+    margin-top: 20px;
+}
+.a-fsocial h3{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+/* Title */
+.a-title{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.a-title h1{
+    display: inline-block;
+    border-bottom: 4px solid black;
+    padding: 10px 10px;
+}
+.a-title h2{
+    display: inline-block;
+    border-bottom: 4px solid black;
+    padding: 10px 10px;
+    font-size: 40px;
+}
+/* Main */
+.a-mainblock{
+    width: 500px;
+    height: auto;
+}
+.a-mainblock a{
+    text-decoration: none;
+}
+.a-clone{
+    box-shadow: -10px 10px rgb(209, 209, 209);
+}
+.a-button{
+    display: block;
+    margin: 0px auto;
+}
+.list{
+    list-style-type: none;
+    padding-left: 40px;
+    font-size: 20px;
+    margin: 20px 0px 30px 0px;
+}
+.a-mainbackground{
+    background-image: url('../images/poz2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.a-bannertext p{
+    display: inline-block;
+    margin: 50px 0px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 10px 10px;
+}
+.a-mbspace{
+    margin-bottom: 50px;
+}
+.a-spacing{
+    margin-bottom: 100px;
+}
+.a-mainabout{
+    display: block;
+    margin: 0px auto;
+    width: 600px;
+}
+.a-mainabout img{
+    padding: 20px;
+}
+.a-mainabout p{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.a-mainabout a{
+    text-decoration: none;
+}
+/* Author */
+.a-aboutback{
+    background-image: url('../images/about.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.a-aboutback img{
+    display: block;
+    margin: 0px auto;
+    width: 800px;
+    height: auto;
+    padding: 200px 0px;
+}
+.a-abouttext{
+    text-align: justify;
+    font-size: 25px;
+}
+/* Services */
+.a-serviceback{
+    background-image: url('../images/service1.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.a-serviceback h1{
+    font-size: 70px;
+    color: white;
+    font-style: italic;
+    margin: 100px 0px;
+    padding: 20px 20px;
+    display: inline-block;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
+.a-serviceblock{
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+.a-servicefeatured{
+    background-image: url('../images/service1.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.a-servicefeatured h2{
+    font-size: 40px;
+    color: white;
+    margin: 50px 0px;
+    padding: 5px 10px;
+    display: inline-block;
+    border-bottom: 3px solid white;
+}
+.a-fserviceblock{
+    margin-bottom: 50px;
+    padding: 10px;
+    margin: 0px 150px 50px 150px;
+}
+/* Author */
+.a-authorback{
+    background-image: url('../images/autorback.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.a-authorback h1{
+    font-size: 70px;
+    color: white;
+    font-style: italic;
+    margin: 100px 0px;
+    display: inline-block;
+}
+.a-aboutauthor h2{
+    font-size: 40px;
+    margin: 20px 0px;
+}
+.a-aboutauthor p{
+    text-align: justify;
+    font-size: 20px;
+    margin: 0px 20px 20px 20px;
+}
+.a-authorsocial{
+    padding-bottom: 0rem;
+}
+.a-authorsocial table{
+    margin: 0px auto;
+    text-align: center;
+}
+.a-authorsocial table thead tr th{
+    font-weight: bold;;
+    font-size: 25px;
+}
+.a-authorsocial tbody tr:nth-child(odd) td{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.a-authorsocial tbody tr:nth-child(even) td{
+    font-size: 25px;
+    font-weight: bold;
+}
+.a-authorsocial tbody tr td a{
+    text-decoration: none;
+    color: black;
+}
+.a-authorsocial tbody tr td a i{
+    font-size: 30px;
+    padding-top: 10px;
+}
+.a-authorsocial tbody tr td a:hover{
+    color: rgb(209, 209, 209);
+    transition: 0.5s;
+}
+/* Contact */
+.a-conback{
+    background-image: url('../images/conback.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.a-conback h1{
+    font-size: 70px;
+    color: white;
+    margin: 100px 0px;
+    display: inline-block;
+}
+.a-conform input[type="text"]{
+    font-size: 20px;
+    margin: 20px 0px 30px 0px;
+}
+.a-conform input[type="email"]{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.a-conform label{
+    font-size: 20px;
+}
+.a-conform select{
+    font-size: 20px;
+    margin: 10px 0px 30px 0px;
+}
+.a-conform textarea{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.a-consocial{
+    padding: 40px 0px 0px 50px;
+}
+.a-consocial a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+.a-consocial a:hover{
+    color: rgb(209, 209, 209);
+    transition: 0.5s;
+}
+.a-consocial i{
+    font-size: 30px;
+}
+.a-consocial p{
+    font-size: 25px;
+}
+/* Responsive */
+@media screen and (max-width: 1025px){
+    /* Main */
+    .a-mainblock{
+        width: 400px;
+    }
+    .list{
+        padding-left: 30px;
+        font-size: 18px;
+        margin: 10px 0px 15px 0px;
+    }
+    .a-clone h2{
+        font-size: 25px;
+    }
+    /* About */
+    .a-aboutback img{
+        width: 700px;
+        padding: 180px 0px;
+    }
+    .a-abouttext{
+        font-size: 20px;
+    }
+    /* Services */
+    .a-fserviceblock{
+        margin: 0px auto;
+        margin-bottom: 50px;
+        padding: 10px;
+    }
+    /* Author */
+    .a-aboutauthor{
+        width: 900px !important;
+    }
+    .a-aboutauthor h2{
+        font-size: 30px !important;
+        margin: 10px 0px;
+    }
+    .a-aboutauthor p{
+        text-align: justify;
+        font-size: 20px;
+        margin: 0px 20px 10px 20px;
+    }
+}
+@media screen and (max-width: 769px){
+    .a-title{
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+    /* Main */
+    .a-bannertext p{
+        font-size: 20px;
+    }
+    .a-mainabout{
+        width: 500px;
+        margin-bottom: 80px;
+    }
+    /* About */
+    .a-aboutback img{
+        width: 600px;
+        padding: 150px 0px;
+    }
+    /* Services */
+    .a-serviceback h1{
+        font-size: 50px;
+        margin: 80px 0px;
+        padding: 15px 15px;
+        border-top: 4px solid white;
+        border-bottom: 4px solid white;
+    }
+    /* Author */
+    .a-aboutauthor{
+        width: 400px !important;
+        padding-bottom: 20px;
+    }
+    .a-aboutauthor h2{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 426px){
+    .a-title h2{
+        font-size: 30px;
+    }
+    .a-footer p{
+        margin-top: 20px;
+    }
+    .a-fsocial p{
+        margin: 0px;
+    }
+    .a-fsocial a{
+        margin-bottom: 10px;
+    }
+    .a-fsocial h3{
+        font-size: 30px;
+    }
+    /* Main */
+    .a-mainblock{
+        width: 300px;
+    }
+    .list{
+        padding-left: 10px;
+        font-size: 13px;
+        margin: 5px 0px 10px 0px;
+    }
+    .a-clone h2{
+        font-size: 20px;
+    }
+    .a-bannertext{
+        padding: 5px;
+    }
+    .a-button{
+        font-size: 12px;
+        padding: 5px;
+    }
+    .a-bannertext p{
+        margin: 20px 0px;
+    }
+    .a-mbspace{
+        margin-bottom: 10px;
+    }
+    .a-spacing{
+        margin-bottom: 50px;
+    }
+    .a-mainabout{
+        width: 300px;
+    }
+    .a-mainabout p{
+        font-size: 20px;
+    }
+    .a-mainabout{
+        margin-bottom: 20px;
+    }
+    /* About */
+    .a-aboutback img{
+        width: 300px;
+        padding: 80px 0px;
+    }
+    .a-abouttext{
+        font-size: 15px;
+    }
+    /* Services */
+    .a-serviceback h1{
+        font-size: 30px;
+        margin: 50px 0px;
+        padding: 10px 10px;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+    /* Author */
+    .a-authorback h1{
+        font-size: 50px;
+        margin: 50px 0px;
+    }
+    .a-aboutauthor{
+        width: 300px !important;
+    }
+    .a-aboutauthor h2{
+        font-size: 20px !important;
+        margin: 10px 0px;
+    }
+    .a-aboutauthor p{
+        text-align: justify;
+        font-size: 15px;
+        margin: 0px 20px 10px 20px;
+    }
+    /* Contact */
+    .a-conform{
+        width: 300px !important
+    }
+    .a-conback h1{
+        font-size: 40px;
+        margin: 50px 0px;
+    }
+}
+@media screen and (max-width: 376px){
+    .a-serviceblock{
+        width: 250px !important;
+    }
+    .a-fserviceblock{
+        width: 250px !important;
+    }
+    /* Author */
+    .a-authorback h1{
+        font-size: 40px;
+        margin: 50px 0px;
+    }
+}
+@media screen and (max-width: 321px){
+    .a-title{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    /* Main */
+    .a-mainblock{
+        width: 250px;
+    }
+    .list{
+        padding-left: 5px;
+        font-size: 10px;
+        margin: 5px 0px 7px 0px;
+    }
+    .a-clone h2{
+        font-size: 15px;
+    }
+    .a-bannertext{
+        padding: 5px;
+    }
+    .a-button{
+        font-size: 10px;
+        padding: 4px;
+    }
+    .a-mainabout{
+        width: 250px;
+    }
+    .a-mainabout p{
+        font-size: 15px;
+    }
+    /* About */
+    .a-aboutback img{
+        width: 250px;
+        padding: 50px 0px;
+    }
+    .a-abouttext{
+        font-size: 12px;
+    }
+    /* Services */
+    .a-serviceback h1{
+        font-size: 25px;
+        margin: 40px 0px;
+        padding: 5px 5px;
+    }
+    /* Author */
+    .a-authorback h1{
+        font-size: 35px;
+        margin: 50px 0px;
+    }
+    .a-aboutauthor{
+        width: 260px !important;
+    }
+    .a-authorsocial table thead tr th{
+        font-size: 20px;
+    }
+    .a-authorsocial tbody tr:nth-child(odd) td{
+        font-size: 15px;
+    }
+    .a-authorsocial tbody tr:nth-child(even) td{
+        font-size: 20px;
+    }
+    .a-authorsocial tbody tr td a i{
+        font-size: 20px;
+    }
+    /* Contact */
+    .a-conform{
+        width: 260px !important
+    }
+    .a-conform input[type="text"]{
+        font-size: 15px;
+        margin: 15px 0px 30px 0px;
+    }
+    .a-conform input[type="email"]{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .a-conform label{
+        font-size: 15px;
+    }
+    .a-conform select{
+        font-size: 15px;
+        margin: 10px 0px 30px 0px;
+    }
+    .a-conform textarea{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .a-consocial{
+        width: 260px !important;
+        padding-left: 20px;
+    }
+}

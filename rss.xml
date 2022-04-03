@@ -1,0 +1,12 @@
+<rss version="2.0">
+	<channel>
+		<title>Photo Magic</title>
+		<link>https://andrija1525.github.io/index.html</link>
+		<description>News from the main page of the site.</description>
+	</channel>
+    <item>
+        <title>Services</title>
+        <link>https://andrija1525.github.io/pages/services.html</link>
+        <description>News about our services.</description>
+    </item>
+</rss>
